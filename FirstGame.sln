@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstGame.Web.UI", "FirstGame.Web.UI\FirstGame.Web.UI.csproj", "{C82046C9-221F-43A8-932C-7A2E05B171F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exemples", "Exemples", "{DFC4B79D-4B82-4E6C-AD58-7B722D26C200}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C82046C9-221F-43A8-932C-7A2E05B171F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C82046C9-221F-43A8-932C-7A2E05B171F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C82046C9-221F-43A8-932C-7A2E05B171F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C82046C9-221F-43A8-932C-7A2E05B171F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BBA48322-28C8-443F-9327-79B9253DED4B}
+	EndGlobalSection
+EndGlobal
