@@ -11,6 +11,7 @@ namespace FirstGame.Web.UI.Controllers
     {
         public IActionResult Index()
         {
+            ViewBag.SecondTitle = "Adventure page";
             return View();
         }
     }
