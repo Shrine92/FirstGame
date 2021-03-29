@@ -2,4 +2,31 @@
     ViewData["Title"] = "Adventure Page";
 }
 
-<h1>@ViewBag.SecondTitle</h1>
+<h1 class="text-center">@ViewBag.SecondTitle</h1>
+
+<div class="container">
+    <div class="row justify-content-md-center">
+        <div class="col-md-auto">
+            <a class="btn btn-primary" asp-controller="Adventure" asp-action="Create">New Adventure</a>
+        </div>
+    </div>
+</div>
+
+<h2 class="text-center small">Your adventures</h2>
+
+<div class="row">
+    @foreach (var item in ViewBag.Coll)
+    {
+        <a href="#" class="card border m-2 text-center" style="width: 12rem;">
+            <div class="card-body">
+                <div>
+                    Mon contenu :
+                </div>
+                <div>
+                    @item
+                </div>
+            </div>
+        </a>
+
+    }
+</div>

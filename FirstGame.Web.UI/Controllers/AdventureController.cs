@@ -12,6 +12,10 @@ namespace FirstGame.Web.UI.Controllers
         public IActionResult Index()
         {
             ViewBag.SecondTitle = "Adventure page";
+
+            //ForEach
+            ViewBag.Coll = new List<int>() {1,2,3,4,5 };
+
             return View();
         }
     }
