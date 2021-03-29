@@ -1,5 +1,7 @@
-﻿@{
-    ViewData["Title"] = "Adventure Page";
+﻿@using FirstGame.Core.Data.Models
+@model List<Adventure> 
+
+@{
 }
 
 <h1 class="text-center">@ViewBag.SecondTitle</h1>
@@ -15,15 +17,12 @@
 <h2 class="text-center small">Your adventures</h2>
 
 <div class="row">
-    @foreach (var item in ViewBag.Coll)
+    @foreach (var adventure in Model)
     {
         <a href="#" class="card border m-2 text-center" style="width: 12rem;">
             <div class="card-body">
                 <div>
-                    Mon contenu :
-                </div>
-                <div>
-                    @item
+                    @adventure.Title
                 </div>
             </div>
         </a>

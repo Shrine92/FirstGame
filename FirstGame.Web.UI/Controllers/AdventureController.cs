@@ -1,9 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using FirstGame.Core.Data.Models;
 
-using System;
+using Microsoft.AspNetCore.Mvc;
+
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace FirstGame.Web.UI.Controllers
 {
@@ -14,9 +13,23 @@ namespace FirstGame.Web.UI.Controllers
             ViewBag.SecondTitle = "Adventure page";
 
             //ForEach
-            ViewBag.Coll = new List<int>() {1,2,3,4,5 };
+            // ViewBag.Coll = new List<int>() {1,2,3,4,5 };
 
-            return View();
+            List<Adventure> adventures = new List<Adventure>()
+            {
+                new Adventure()
+                {
+                    Id = 1,
+                    Title = "LOTR"
+                },
+                new Adventure()
+                {
+                    Id = 2,
+                    Title = "World of Warcraft"
+                },
+            };
+
+            return View(adventures);
         }
     }
 }

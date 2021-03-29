@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstGame.Web.UI", "FirstGa
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exemples", "Exemples", "{DFC4B79D-4B82-4E6C-AD58-7B722D26C200}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstGame.Core.Data", "FirstGame.Core.Data\FirstGame.Core.Data.csproj", "{3025C0D9-DF56-49D6-8F8C-1D76147571DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{FD1048DB-9FC8-475B-A91B-B53F28EB6BD8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,9 +21,16 @@ Global
 		{C82046C9-221F-43A8-932C-7A2E05B171F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C82046C9-221F-43A8-932C-7A2E05B171F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C82046C9-221F-43A8-932C-7A2E05B171F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3025C0D9-DF56-49D6-8F8C-1D76147571DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3025C0D9-DF56-49D6-8F8C-1D76147571DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3025C0D9-DF56-49D6-8F8C-1D76147571DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3025C0D9-DF56-49D6-8F8C-1D76147571DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3025C0D9-DF56-49D6-8F8C-1D76147571DE} = {FD1048DB-9FC8-475B-A91B-B53F28EB6BD8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BBA48322-28C8-443F-9327-79B9253DED4B}
