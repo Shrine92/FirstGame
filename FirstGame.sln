@@ -7,11 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstGame.Web.UI", "FirstGa
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exemples", "Exemples", "{DFC4B79D-4B82-4E6C-AD58-7B722D26C200}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstGame.Core.Data", "FirstGame.Core.Data\FirstGame.Core.Data.csproj", "{3025C0D9-DF56-49D6-8F8C-1D76147571DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstGame.Core.Data", "FirstGame.Core.Data\FirstGame.Core.Data.csproj", "{3025C0D9-DF56-49D6-8F8C-1D76147571DE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{FD1048DB-9FC8-475B-A91B-B53F28EB6BD8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstGame.BackOffice.Web.UI", "FirstGame.BackOffice.Web.UI\FirstGame.BackOffice.Web.UI.csproj", "{31ECE8FA-47D7-48A9-A116-105094A4FC4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstGame.BackOffice.Web.UI", "FirstGame.BackOffice.Web.UI\FirstGame.BackOffice.Web.UI.csproj", "{31ECE8FA-47D7-48A9-A116-105094A4FC4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestEFCore5", "TestEFCore5\TestEFCore5.csproj", "{1FD085B2-46A0-4B59-BCE7-0FE532C70596}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,10 @@ Global
 		{31ECE8FA-47D7-48A9-A116-105094A4FC4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31ECE8FA-47D7-48A9-A116-105094A4FC4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31ECE8FA-47D7-48A9-A116-105094A4FC4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FD085B2-46A0-4B59-BCE7-0FE532C70596}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FD085B2-46A0-4B59-BCE7-0FE532C70596}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FD085B2-46A0-4B59-BCE7-0FE532C70596}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FD085B2-46A0-4B59-BCE7-0FE532C70596}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
