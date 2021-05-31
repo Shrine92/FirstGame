@@ -1,5 +1,3 @@
-using System;
-
 namespace FirstGame.Web.UI.Models
 {
     public class ErrorViewModel
