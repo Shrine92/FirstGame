@@ -2,7 +2,6 @@
 
 using Microsoft.AspNetCore.Mvc;
 
-using System.Collections.Generic;
 using System.Linq;
 
 namespace FirstGame.Web.UI.Controllers
