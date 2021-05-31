@@ -23,7 +23,7 @@ namespace FirstGame.Web.UI.Controllers
 
             return View(adventures);
 
-            //ForEach
+            // ForEach
             // ViewBag.Coll = new List<int>() {1,2,3,4,5 };
 
             //List<Adventure> adventures = new List<Adventure>()
